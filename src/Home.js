@@ -1,35 +1,38 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import mole1 from './mole.png';
-import mole2 from './mole2.png';
-import mole3 from './mole3.png';
+import mole1 from './img/mole.png';
+import mole2 from './img/mole2.png';
+import mole3 from './img/mole3.png';
 
 export default function Home () {
   return (
     <div>
       <header className="App-header">
-
         <div className="container">
           <div className="row">
             <div className="col menu-mole">
-              {/* <Link to="/resume"> */}
-              <p className="display-6 fs-3 first-txt">
-                Resume
-              </p>
-              <img src={mole1} className="App-logo" alt="logo" />
-              {/* </Link> */}
+              <Link to="/resume">
+                <p className="display-6 fs-3 first-txt">
+                  Resume
+                </p>
+                <img src={mole1} className="App-logo" alt="logo" />
+              </Link>
             </div>
             <div className="col menu-mole ">
-              <p className="display-6 fs-3 first-txt">
-                Portfolio
-              </p>
-              <img src={mole2} className="App-logo" alt="logo" />
+              <Link to="/portfolio">
+                <p className="display-6 fs-3 first-txt">
+                  Portfolio
+                </p>
+                <img src={mole2} className="App-logo" alt="logo" />
+              </Link>
             </div>
             <div className="col menu-mole">
-              <p className="display-6 fs-4  first-txt">
-                Contact
-              </p>
-              <img src={mole3} className="App-logo" alt="logo" />
+              <Link to="/contact">
+                <p className="display-6 fs-4  first-txt">
+                  Contact
+                </p>
+                <img src={mole3} className="App-logo" alt="logo" />
+              </Link>
             </div>
           </div>
         </div>

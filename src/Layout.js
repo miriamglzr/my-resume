@@ -8,7 +8,7 @@ export default function Layout () {
         <Link to="/"><button className="circle p-2 m-2" /></Link>
         <Link className="navbar-brand" to="/">Miriam Gonzalez</Link>
 
-        <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <div className="floater float-end" id="navbarTogglerDemo02">
           <ul className="navbar-nav my-2 mt-2 my-lg-0">
             <li className="nav-item active">
               <Link className="nav-link" to="/resume">

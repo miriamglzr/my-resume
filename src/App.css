@@ -1,6 +1,6 @@
 .App {
 	text-align: center;
-	background-image: url('background.png');
+	background-image: url('./img/background.png');
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -61,4 +61,9 @@ submit {
 	to {
 		transform: rotate(360deg);
 	}
+}
+
+.holder {
+	min-width: 18rem;
+	max-width: 25rem;
 }

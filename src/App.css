@@ -1,16 +1,18 @@
 .App {
 	text-align: center;
-	background-image: url('./img/background.png');
+	background-color: rgb(243, 236, 226);
+	/* background-image: url('./img/background.png'); */
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
+	/* background-size: cover; */
 	font-family: 'Work Sans', sans-serif;
 }
 
 .App-logo {
 	height: 40vmin;
-	pointer-events: none;
+	/* pointer-events: none; */
+	margin-bottom: 30px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -21,6 +23,7 @@
 .menu-mole {
 	position: relative;
 }
+
 .first-txt {
 	position: absolute !important;
 	top: 50%;
@@ -41,7 +44,7 @@
 }
 
 .App-link {
-	color: #61dafb;
+	color: #1689a8;
 }
 .circle {
 	background-color: cadetblue;
@@ -66,4 +69,15 @@ submit {
 .holder {
 	min-width: 18rem;
 	max-width: 25rem;
+}
+
+.first-txt :focus {
+	font-weight: 300 !important;
+}
+
+.profile {
+	height: 30%;
+	max-height: 25rem !important;
+	border-radius: 100%;
+	margin-bottom: 15px;
 }
